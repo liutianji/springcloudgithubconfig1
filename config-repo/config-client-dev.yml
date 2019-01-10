@@ -1,6 +1,6 @@
 server:
-  port: 8752   #原始为8762 修改之后为8752
-foo: foo version 4
+  port: 8753   #原始为8762 修改之后为8752
+foo: foo version 5
 
 eureka:
   client:
