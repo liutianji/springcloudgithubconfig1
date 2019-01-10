@@ -1,0 +1,11 @@
+server:
+  port: 8752   #原始为8762 修改之后为8752
+foo: foo version 3
+
+eureka:
+  client:
+    serviceUrl:
+#原始地址
+#      defaultZone: http://localhost:8761/eureka/
+#Eureka 集群注册  地址修改
+      defaultZone: http://peer1:8761/eureka
